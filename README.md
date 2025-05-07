@@ -42,20 +42,20 @@ Other: ONNX, Matplotlib (for visualization), Tkinter (for file dialog)
 
 Project Structure:-
 Cricket-Analysis/
-├── Cricket/YOLO/central.py                  # Main launcher script
+├── Cricket/central.py                  # Main launcher script
 ├── modules/
-│   ├── Cricket/YOLO/t1.py	# Object detection module			
-│   ├── Cricket/YOLO/t22.py        # Ball speed and trajectory
-│   ├── Cricket/YOLO/t3.py      # Ball variation predictions
-│   ├── Cricket/YOLO/b2.py         # Bat motion & angle
-│   ├── Cricket/YOLO_2/b1.py     # Shot recognition
-│   ├── Cricket/Yolo_3/1a.py      # Player position. (F = front, R = Rear view)
-│   └── Cricket/Yolo_3/5.py     # Actual vs hypothetical output
+│   ├── t1.py	# Object detection module			
+│   ├── t22.py        # Ball speed and trajectory
+│   ├── t3.py      # Ball variation predictions
+│   ├── b2.py         # Bat motion & angle
+│   ├── b1.py     # Shot recognition
+│   ├── 1a.py      # Player position. (F = front, R = Rear view)
+│   └── 5.py     # Actual vs hypothetical output
 ├── Cricket/asset     # Saved output videos (module output m1,m2, ALL.mp4 is 		│											joint file ). 
 ├── models.   # YOLOv8 and ONNX models
-│   ├── Cricket/YOLO/runs/detect/train/weights/best.pt	     #  object detection	
-│   ├── Cricket/YOLO_2/runs/detect/train/weights/best.pt   #  player shot style
-│   ├── Cricket/YOLO_3/runs/detect/train/weights/best.pt   # left/right hand
+│   ├── best.pt	     #  object detection	
+│   ├── best2.pt   #  player shot style
+│   ├── bes32.pt   # left/right hand
 └── README.md
 Usage
 Run the main script to start the system:
