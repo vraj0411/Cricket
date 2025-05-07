@@ -42,7 +42,7 @@ Other: ONNX, Matplotlib (for visualization), Tkinter (for file dialog)
 
 Project Structure:-
 Cricket-Analysis/
-├── Cricket/central.py                  # Main launcher script
+├── central.py                  # Main launcher script
 ├── modules/
 │   ├── t1.py	# Object detection module			
 │   ├── t22.py        # Ball speed and trajectory
