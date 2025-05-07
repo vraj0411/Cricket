@@ -67,4 +67,4 @@ Live Detection on Screen: Capture and analyze from your screen (like full-screen
 Author :-
 Vraj Alpeshkumar Modi
 M.Tech (Computer Science & Engineering), NIT Goa
-Email: vrajalpeshkumarmodi@gmail.com
+Email: vrajmodi0411i@gmail.com
